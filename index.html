@@ -1,91 +1,37 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drum-Kit JS</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS + CSS Clock</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <header>
-    <div class="title">
-    <i class="fas fa-drum"></i><h1>DRUM KIT</h1>
-  </div>
-    <div class="borderBottom animated bounceInLeft">
-      <div class="borderColor1"></div>
-      <div class="borderColor2"></div>
-      <div class="borderColor3"></div>
-    </div>
-    <div>
-      <h2 class="h2">How to Use?</h2>
-      <ul class="guide">
-        <li>Use Keyboard to Play Music</li>
-      </ul>
-    </div>
-  </header>
-
-    <div class="keys">
-        <div data-key="65" class="key">
-          <kbd>A</kbd>
-          <span class="sound">clap</span>
-        </div>
-        <div data-key="83" class="key">
-          <kbd>S</kbd>
-          <span class="sound">hihat</span>
-        </div>
-        <div data-key="68" class="key">
-          <kbd>D</kbd>
-          <span class="sound">kick</span>
-        </div>
-        <div data-key="70" class="key">
-          <kbd>F</kbd>
-          <span class="sound">openhat</span>
-        </div>
-        <div data-key="71" class="key">
-          <kbd>G</kbd>
-          <span class="sound">boom</span>
-        </div>
-        <div data-key="72" class="key">
-          <kbd>H</kbd>
-          <span class="sound">ride</span>
-        </div>
-        <div data-key="74" class="key">
-          <kbd>J</kbd>
-          <span class="sound">snare</span>
-        </div>
-        <div data-key="75" class="key">
-          <kbd>K</kbd>
-          <span class="sound">tom</span>
-        </div>
-        <div data-key="76" class="key">
-          <kbd>L</kbd>
-          <span class="sound">tink</span>
-        </div>
+    <i class="far fa-clock"></i>
+    <h1>JS + CSS Clock</h1>
+  </header>  
+    <div class="clock">
+      <div class="clock-face">
+        <div class="hand hour-hand"></div>
+        <div class="hand min-hand"></div>
+        <div class="hand second-hand"></div>
       </div>
-      <footer>
-          <h2>Made By <a href="https://github.com/SharjeelDev/Drum-Kit-JS" target="_blank" title="Source Code">Sharjeel Yunus</a></h2>
-          <ul class="social-icon wow">
-            <li><a href="https://www.facebook.com/aslisharjeel" target="_blank" title="Like me on Facebook"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://www.instagram.com/sharjeel_arts/" target="_blank" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="https://twitter.com/sharjeelyunus" target="_blank" title="Follow me on Twitter"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://github.com/SharjeelDev" target="_blank" title="Follow me on GitHub"><i class="fa fa-github"></i></a></li>
-          </ul>
-        </footer>
+    </div>
 
-      
-    
-      <audio data-key="65" src="sounds/clap.wav"></audio>
-      <audio data-key="83" src="sounds/hihat.wav"></audio>
-      <audio data-key="68" src="sounds/kick.wav"></audio>
-      <audio data-key="70" src="sounds/openhat.wav"></audio>
-      <audio data-key="71" src="sounds/boom.wav"></audio>
-      <audio data-key="72" src="sounds/ride.wav"></audio>
-      <audio data-key="74" src="sounds/snare.wav"></audio>
-      <audio data-key="75" src="sounds/tom.wav"></audio>
-      <audio data-key="76" src="sounds/tink.wav"></audio>
+    <footer>
+      <h2>Made By <a href="https://github.com/SharjeelDev/JS-CSS-Clock" target="_blank" title="Source Code">Sharjeel Yunus</a></h2>
+      <ul class="social-icon wow">
+        <li><a href="https://www.facebook.com/aslisharjeel" target="_blank" title="Like me on Facebook"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com/sharjeel_arts/" target="_blank" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://twitter.com/sharjeelyunus" target="_blank" title="Follow me on Twitter"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://github.com/SharjeelDev" target="_blank" title="Follow me on GitHub"><i class="fa fa-github"></i></a></li>
+      </ul>
+    </footer>
 
-      <script src="script.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
