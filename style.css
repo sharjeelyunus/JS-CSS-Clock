@@ -1,5 +1,5 @@
 html {
-    background: #018DED url(http://unsplash.it/1500/1000?image=881&blur=5);
+    background: #018DED url(https://images.unsplash.com/photo-1666631123768-55afcfd7a3bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80);
     background-size: cover;
     font-family: 'helvetica neue';
     text-align: center;
@@ -39,7 +39,7 @@ html {
   .clock {
     width: 30rem;
     height: 30rem;
-    border: 20px solid white;
+    border: 20px solid red;
     border-radius: 50%;
     margin: 50px auto;
     position: relative;
