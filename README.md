@@ -1,2 +1,2 @@
 # JS-CSS-Clock
-JS + CSS Clock
+JavaScript and CSS Clock
