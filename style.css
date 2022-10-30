@@ -1,5 +1,5 @@
 html {
-    background: #018DED url(http://unsplash.it/1500/1000?image=881&blur=5);
+    background-image: linear-gradient(to right, rgb(25, 172, 216) , rgb(181, 54, 239));
     background-size: cover;
     font-family: 'helvetica neue';
     text-align: center;
