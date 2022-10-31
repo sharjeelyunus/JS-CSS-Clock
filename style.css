@@ -1,108 +1,117 @@
 html {
-    background: #018DED url(http://unsplash.it/1500/1000?image=881&blur=5);
-    background-size: cover;
-    font-family: 'helvetica neue';
-    text-align: center;
-    font-size: 10px;
-  }
+  background: #018DED url(http://unsplash.it/1500/1000?image=881&blur=5);
+  background-size: cover;
+  font-family: 'helvetica neue';
+  text-align: center;
+  font-size: 10px;
+}
 
-  body {
-    margin: 0;
-    font-size: 2rem;
-    flex: 1;
-    min-height: 100vh;
-    align-items: center;
-  }
+body {
+  margin: 0;
+  font-size: 2rem;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+}
 
-  header {
-    text-align: center;
-    display: flex;
-    margin-top: 20px;
-    color: #7700ff;
-    font-family: 'Pacifico', cursive;
-    justify-content: center;
-  }
+header {
+  text-align: center;
+  display: flex;
+  margin-top: 20px;
+  color: #7700ff;
+  font-family: 'Pacifico', cursive;
+  justify-content: center;
+}
 
-  .far{
-    font-size: 50px;
-  }
+.far {
+  font-size: 50px;
+}
 
-  .title {
-    font-size: 20px;
-    margin: 0px;
-  }
+.title {
+  font-size: 20px;
+  margin: 0px;
+}
 
-  h1 {
-    margin: 0px;
-  }
+.heading {
+  color: white;
+  background-color: royalblue;
+  padding: 10px;
+  display: flex;
+  border-radius: 14px;
+}
 
-  .clock {
-    width: 30rem;
-    height: 30rem;
-    border: 20px solid white;
-    border-radius: 50%;
-    margin: 50px auto;
-    position: relative;
-    padding: 2rem;
-    box-shadow:
-      0 0 0 4px rgba(0,0,0,0.1),
-      inset 0 0 0 3px #EFEFEF,
-      inset 0 0 10px black,
-      0 0 10px rgba(0,0,0,0.2);
-  }
+h1 {
+  margin: 0px;
+}
 
-  .clock-face {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transform: translateY(-3px); /* account for the height of the clock hands */
-  }
+.clock {
+  width: 30rem;
+  height: 30rem;
+  border: 20px solid white;
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+  padding: 2rem;
+  box-shadow:
+    0 0 0 4px rgba(0, 0, 0, 0.1),
+    inset 0 0 0 3px #EFEFEF,
+    inset 0 0 10px black,
+    0 0 10px rgba(0, 0, 0, 0.2);
+}
 
-  .hand {
-    width: 50%;
-    height: 6px;
-    background: black;
-    position: absolute;
-    top: 50%;
-    transform-origin: 100%;
-    transform: rotate(90deg);
-    transition: all 0.05s;
-    transition-timing-function: cubic-bezier(0.42, 2.57, 0.58, 1);
-  }
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3px);
+  /* account for the height of the clock hands */
+}
 
-  .second-hand {
-      background: brown;
-  }
+.hand {
+  width: 50%;
+  height: 6px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.42, 2.57, 0.58, 1);
+}
 
-  h2 {
-    margin: 0px;
-    font-size: 20px;
-    margin-right: 5px;
-  }
+.second-hand {
+  background: brown;
+}
 
-  footer {
-    text-align: center;
-    color: #ffffff;
-  }
+h2 {
+  margin: 0px;
+  font-size: 20px;
+  margin-right: 5px;
+}
 
-  footer a{
-    text-decoration: none;
-    color: #cf3f06;
-  }
+footer {
+  text-align: center;
+  color: #ffffff;
+}
 
-  ul{
-    display: inline-flex;
-    list-style: none;
-    margin: 0px;
-  }
+footer a {
+  text-decoration: none;
+  color: #cf3f06;
+}
 
-  .social-icon {
-    padding-left: 0;
-  }
+ul {
+  display: inline-flex;
+  list-style: none;
+  margin: 0px;
+}
 
-  .fa {
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: 15px;
-    color: rgb(201, 199, 199);
-  }
+.social-icon {
+  padding-left: 0;
+}
+
+.fa {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 15px;
+  color: rgb(201, 199, 199);
+}
